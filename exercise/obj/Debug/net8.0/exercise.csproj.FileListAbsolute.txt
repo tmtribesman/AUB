@@ -28,3 +28,4 @@ c:\Users\tmtri\Exercise\AUB\exercise\obj\Debug\net8.0\refint\exercise.dll
 c:\Users\tmtri\Exercise\AUB\exercise\obj\Debug\net8.0\exercise.pdb
 c:\Users\tmtri\Exercise\AUB\exercise\obj\Debug\net8.0\exercise.genruntimeconfig.cache
 c:\Users\tmtri\Exercise\AUB\exercise\obj\Debug\net8.0\ref\exercise.dll
+c:\Users\tmtri\Exercise\AUB\exercise\obj\Debug\net8.0\exercise.sourcelink.json
