@@ -9,7 +9,7 @@
     <form asp-controller="Home" asp-action="Index" method="post" class="mb-2">
         <div class="form-group mb-2">
             <label for="Number">Enter a number:</label>
-            <input asp-for="Number" class="form-control" id="Number" name="Number" />
+            <input class="form-control" id="Number" name="Number" />
             <span asp-validation-for="Number" class="text-danger"></span>
         </div>
         <button type="submit" class="btn btn-primary">Check if Palindrome</button>
