@@ -1,0 +1,26 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Is It A Palindrome?</h1>
+
+    <form asp-controller="Home" asp-action="Index" method="post" class="mb-2">
+        <div class="form-group mb-2">
+            <label for="Number">Enter a number:</label>
+            <input asp-for="Number" class="form-control" id="Number" name="Number" />
+            <span asp-validation-for="Number" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Check if Palindrome</button>
+    </form>
+
+    @if (ViewBag.IsPalindrome != null)
+    {
+        <div class="result">
+            Your number is @(ViewBag.IsPalindrome ? "" : "not ")a palindrome.
+        </div>
+    }
+
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
